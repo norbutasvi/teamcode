@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/teamcode/static/css/main.f2761c26.css",
+    "main.js": "/teamcode/static/js/main.23f4a69e.js",
+    "static/js/787.adb2f965.chunk.js": "/teamcode/static/js/787.adb2f965.chunk.js",
+    "static/media/graphics.jpg": "/teamcode/static/media/graphics.4c12f28bd0afe7c755c1.jpg",
+    "static/media/kidzone.png": "/teamcode/static/media/kidzone.324df74923929f030c08.png",
+    "static/media/slideshow1.jpg": "/teamcode/static/media/slideshow1.de64707a73fb0ae93ffc.jpg",
+    "static/media/featured3.png": "/teamcode/static/media/featured3.1fa5109afdae049db85a.png",
+    "static/media/dmlangai.png": "/teamcode/static/media/dmlangai.7da3a1831de9dc83a407.png",
+    "static/media/featured1.png": "/teamcode/static/media/featured1.b05b454cb89dc5222459.png",
+    "static/media/automore.png": "/teamcode/static/media/automore.074e529846d8386b4f46.png",
+    "static/media/angeloakmuo.png": "/teamcode/static/media/angeloakmuo.48c3e48f41a4fbf8d5bb.png",
+    "static/media/logobalt.png": "/teamcode/static/media/logobalt.283b6e9bf37693f3068c.png",
+    "static/media/featured2.png": "/teamcode/static/media/featured2.e128213974b09410770d.png",
+    "static/media/migle.png": "/teamcode/static/media/migle.71b63c450d348d5228b2.png",
+    "static/media/andrius.png": "/teamcode/static/media/andrius.c921c141b1fca2466346.png",
+    "static/media/vilius.png": "/teamcode/static/media/vilius.986ec7ce8e8172cac3ac.png",
+    "static/media/team_code_logo.png": "/teamcode/static/media/team_code_logo.d865a2fe5ba6ae1ce34f.png",
+    "index.html": "/teamcode/index.html",
+    "main.f2761c26.css.map": "/teamcode/static/css/main.f2761c26.css.map",
+    "main.23f4a69e.js.map": "/teamcode/static/js/main.23f4a69e.js.map",
+    "787.adb2f965.chunk.js.map": "/teamcode/static/js/787.adb2f965.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f2761c26.css",
+    "static/js/main.23f4a69e.js"
+  ]
+}
