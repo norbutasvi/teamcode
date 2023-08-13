@@ -3,7 +3,7 @@ import { useState } from "react";
 import './App.css';
 import { ContactUs } from './ContactUs';
 import MobileMenuIcon from './images/mobile-menu.png';
-import TeamCodeLogo from './images/team_code_logo.png';
+import Logo from './images/logo11.png';
 import FeaturedOne from './images/featured1.png';
 import FeaturedTwo from './images/featured2.png';
 import FeaturedThree from './images/featured3.png';
@@ -15,6 +15,10 @@ import Angeloakmuo from './images/angeloakmuo.png';
 import andrius from './images/andrius.png';
 import migle from './images/migle.png';
 import vilius from './images/vilius.png';
+import Poster1 from './images/poster1.png';
+import Poster2 from './images/poster2.png';
+import Poster3 from './images/poster3.png';
+import FbLogo from './images/fbLogo.png';
 
 import Slideshow_one from './images/slideshow1.jpg';
 import Graphics from './images/graphics.jpg';
@@ -60,92 +64,110 @@ function App() {
   const comments = [
     {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_13172143/profilis.jpg',
+      facebookProfile: false,
       name: 'Laura',
       date: '2023-06',
       text: 'Jūsų pastangų dėka mano tinklalapis dabar tarnauja kaip galinga platforma efektyviam mano verslo paslaugų pristatymui. Ačiū Jums už tai :)'
     },
     {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_12889547/profilis.jpg',
+      facebookProfile: false,
       name: 'Saulius Bužinskas',
       date: '2023-03',
       text: 'Iš esmės, esu labai patenkintas Jūsų darbo kokybe ir teikiamos paslaugos lygiu. Jūs viršijote mano lūkesčius, ir neabejoju, kad rekomenduosiu Jūsų paslaugas, kurie ieško tinklalapių kūrėjo. Dar kartą dėkoju už puikią svetainę.'
     }, {
       avatar: 'https://static.paslaugos.lt/static/img/avatar.svg',
+      facebookProfile: false,
       name: 'Trendy Bar',
       date: '2023-01',
       text: 'Profesionali komunikacija, greitas ir optimalus reagavimas tiek į dideles, tiek į mažas internetinės svetainės vidaus ir išorės problemas, niekada nekilo jokių sunkumų dirbant su Sbyte ir ateityje palaikysime ryšį su šiais savo srities specialistais.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_11141649/profilis.jpg',
+      facebookProfile: true,
       name: 'Indre Gataveckaite',
       date: '2023-05',
       text: 'Dėkoju Viliui už atliktą darbą ir malonų bendravimą. Puikiai išsprendė klausimus dėl kombinuoto prekių siuntimo. Atliktas darbas www.pagamintavienuolyne.lt'
     },    {
       avatar: 'https://static.paslaugos.lt/static/img/avatar.svg',
+      facebookProfile: false,
       name: 'Pačiu laiku',
       date: '2023-05',
       text: 'Esame nuoširdžiai dėkingi įmonei už el. svetainę www.motinospienobankas.lt Darbai atlikti labai greitai, bendravimas malonus ir dėmesingas. AČIŪ!'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_7585611/profilis.jpg',
+      facebookProfile: true,
       name: 'Egle Aleknaite',
       date: '2023-06',
       text: 'Sprendžia programines problemas operatyviai, pateikia įvairių variantų, kaip galima išspręsti vieną ar kitą netobulumą. Esu patenkinta. Kreipsiuosi dar kartą.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_10422851/profilis.jpg',
+      facebookProfile: true,
       name: 'Lukas Rudzevičius',
       date: '2022-12',
       text: 'Komunikacija vyko sklandžiai ir greitai, darbu likome patenkinti. Kaip greitai viskas bus atlikta priklausys tik nuo jūsų pačių. Viliui reikalinga tik informacija, o viskas toliau atliekama itin greitai.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_3932423/profilis.jpg',
+      facebookProfile: true,
       name: 'Pau Lius',
       date: '2023-06',
       text: 'Paslaugos atliktos kokybiškai, bei laiku. Labai malonus bendravimas, viskas atlikta maksimaliai gerai iki smulkiausių detalių.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_10117702/profilis.jpg',
+      facebookProfile: true,
       name: 'Rima',
       date: '2023-03',
       text: 'Noriu padėkoti Viliui ir jo komandai už sklandų ir kokybišką internetinės parduotuvės kūrimą bei visokeriopą pagalbą. Ačiū, labai džiaugiuosi, kad pasirinkau jus šiam darbui, pranokote lūkesčius :)'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_12137676/uab-rbm.jpg',
+      facebookProfile: false,
       name: 'www.redbigmonster.lt',
       date: '2023-06',
-      text: 'Sukūrėme ne vieną e-shop projektą ir dirbame kartu toliau. Teamcode komanda dirba greitai, kokybiškai bei už konkurencingą kainą. Rekomenduojame. Arūnas P.'
+      text: 'Sukūrėme ne vieną e-shop projektą ir dirbame kartu toliau. Digital edge komanda dirba greitai, kokybiškai bei už konkurencingą kainą. Rekomenduojame. Arūnas P.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_9720190/profilis.jpg',
+      facebookProfile: false,
       name: 'Rašto darbai',
       date: '2021-10',
       text: 'Su Viliaus komanda dirbome ties dviem nedideliais projektais. Asmeniškai pasiūlo geriausius variantus, padeda susirasti tinkamus būsimo sistemų ir dizainų pavyzdžius, iš anksto aptaria kaip kas būtų geriausia įgyvendinti. Savo srities profesionalas, atlieka darbą kokybiškai, greitai ir svarbiausia (!) į viską žiūri atsakingai. Netgi po įvykdytų darbų, ir mokėjimų už juos, elgiasi profesionaliai - naudojimosi metu atsiradus papildomiems klausimams noriai konsultuoja ir esant poreikiui pataiso ar pakoreguoja tinklapio veikimą.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_9706832/profilis.jpg',
+      facebookProfile: false,
       name: 'Dominyka Jundulaite',
       date: '2022-01',
       text: 'Greitai ir pagal visus mano pageidavimus sukūrė svetainę. Negailėjo laiko ir išsamiai paaškino kaip valdyti savo naujai sukurtą puslapį. Kilus kokiam klausimui visada greitai atrašydavo ir atsakydavo. Labai džiaugiuosi, kad pasirinkau juos. Nuoširdžiai rekomenduoju!'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_9665967/profilis.jpg',
+      facebookProfile: true,
       name: 'Robertas Ivanauskas',
       date: '2023-03',
       text: 'Sukure svetaine viskas sklandziai, atliko koregavimus greitai ir be problemu. rekomenduoju'
     },    {
       avatar: 'https://static.paslaugos.lt/static/img/avatar.svg',
+      facebookProfile: false,
       name: 'Mantas',
       date: '2022-04',
-      text: 'Puikūs atsiliepimai apie Marių. Vien tai, kad į susitikimą ateinama pasiruošus ir turint viziją bei demo versiją įrodo, kad požiūris į klientą yra profesionalus. Puikus bendravimas viso proceso metu: visada viską operatyviai paaiškina, pateikia nuorodas ir operatyviai atlieka reikiamas korekcijas. Bendravimo etika ir atliekamo darbo profesionalumas verti aukščiausio įvertinimo. Drąsiai rekomenduoju.'
+      text: 'Puikūs atsiliepimai apie Digital edge komanda. Vien tai, kad į susitikimą ateinama pasiruošus ir turint viziją bei demo versiją įrodo, kad požiūris į klientą yra profesionalus. Puikus bendravimas viso proceso metu: visada viską operatyviai paaiškina, pateikia nuorodas ir operatyviai atlieka reikiamas korekcijas. Bendravimo etika ir atliekamo darbo profesionalumas verti aukščiausio įvertinimo. Drąsiai rekomenduoju.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_202691/sergio-tachinni.jpg',
+      facebookProfile: true,
       name: 'Barbora Skučaitė',
       date: '2021-12',
       text: 'Puikus bendradarbiavimas, lengvas bendravimas,puikus užduočių išpildymas ir realizavimas :) Ačiū už kokybiškai atliktą darbą :)'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_9298957/profilis.jpg',
+      facebookProfile: true,
       name: 'Tomas Ogonauskas',
       date: '2022-01',
-      text: 'Labai ačiū Mariui už kokybiškai atliktą darbą. Malonus bendradarbiavimas, viską aiškiai ir kantriai paaiškina, parodo, kaip atlikti funkcijas. Pateisino visus lūkeščius, didelė rekomendacija!'
+      text: 'Labai ačiū Viliui už kokybiškai atliktą darbą. Malonus bendradarbiavimas, viską aiškiai ir kantriai paaiškina, parodo, kaip atlikti funkcijas. Pateisino visus lūkeščius, didelė rekomendacija!'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_9213847/profilis.jpg',
+      facebookProfile: true,
       name: 'Justinas Kisunas',
       date: '2023-03',
       text: 'Labai džiaugiuosi partneryste. Darbai daromi opreatyviai, kokybiškai ir tai yra svarbiausia ko reikia iš šios srities specialistų.'
     },    {
       avatar: 'https://static.paslaugos.lt/static/img/avatar.svg',
+      facebookProfile: false,
       name: 'UAB Lupus',
       date: '2023-01',
       text: 'Labai greitai, labai tiksliai, labai kruopščiai ir kantriai. Visada ryšy, tiek telefonu, tiek paštu. Kainos - "nesunkios". :) Ačiū, Viliau! Rekomenduojam kitiems, ir patys dar naudosimės :)'
@@ -211,7 +233,7 @@ function App() {
       </div>
       <div className='mobile-header'>
         <div className='mobile-logo'>
-          <img src={TeamCodeLogo} alt=""/>
+          <img src={Logo} alt=""/>
         </div>
         <div className='mobile-menu-icon' onClick={openNav}>
           <img alt="" src={MobileMenuIcon} />
@@ -243,14 +265,14 @@ function App() {
       <div className='header-wrapper'>
       <div className='header'>
         <div className='logo'>
-          <img alt="" src={TeamCodeLogo} />
+          <img alt="" src={Logo} />
         </div>
         <div className='contacts'>
             <div className='row'>
               Tel.: +37063631839
             </div>
             <div className='row'>
-              El. paštas: nordnet.lt
+              El. paštas: info@digitaledge.lt
             </div>
         </div>
         <div className='navigation'>
@@ -418,9 +440,9 @@ function App() {
             </div>
           </div>
           <div className='images'>
-            <img alt="" src={FeaturedOne} className="first"/>
-            <img alt="" src={FeaturedTwo} className='second'/>
-            <img alt="" src={FeaturedThree} className='third' />
+            <img alt="" src={Poster1} className="first"/>
+            <img alt="" src={Poster2} className='second'/>
+            <img alt="" src={Poster3} className='third' />
           </div>
         </div>
       </div>
@@ -433,7 +455,7 @@ function App() {
               <img alt="" src={FeaturedOne} />
             </a>
             <a className='grid-item' href="https://apdailosformatas.lt">
-              <p>ANGELOAKMUO.LT</p>
+              <p>APDAILOSFORMATAS.LT</p>
               <img alt="" src={FeaturedTwo} />
             </a>
             <a className='grid-item' href="https://autobanga.lt">
@@ -496,8 +518,8 @@ function App() {
               Sukurtų projektų
             </div>
             <div className='stats-row-item'>
-              <span>8 +</span><br />
-              Metų projektų
+              <span>10 +</span><br />
+              Metų patirtis
             </div>
           </div>
         </div>
@@ -512,6 +534,10 @@ function App() {
                 <div className='review'>
                 <div className='row'>
                   <div className='avatar'>
+                    {
+                      comment.facebookProfile && 
+                      <img src={FbLogo} className="fb-logo" alt="" />
+                    }
                     <img alt="" src={comment.avatar} />
                   </div>
                   <div className='fields'>
@@ -624,15 +650,15 @@ function App() {
       <div className='contacts-wrapper'>
         <div className='flex-container'>
           <div className='logo'>
-            <img alt="" src={TeamCodeLogo} />
+            <img alt="" src={Logo} />
           </div>
           <div className='col'>
             <h3>KONTAKTAI</h3>
-            <p>El. paštas: info@nordnet.lt</p>
+            <p>El. paštas: info@digitaledge.lt</p>
             <p>Tel. Nr. +37063631839</p>
           </div>
           <div className='col'>
-            <h3>NORDNET.LT</h3>
+            <h3>DIGITALEDGE.LT</h3>
             <p>Verslo liudijimo Nr. 1077274</p>
             <p>Atsiskaitomoji sąskaita: LT1234567891011121314</p>
           </div>

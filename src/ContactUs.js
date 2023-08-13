@@ -46,10 +46,10 @@ export const ContactUs = () => {
   return (
     <form ref={form} onSubmit={sendEmail}>
         <div className='contacts-info'>
-            <img src={phoneIcon} /> Tel. Nr.: +37063631839
+            <img src={phoneIcon} alt="" /> Tel. Nr.: +37063631839
         </div>
         <div className='contacts-info margin-bottom'>
-            <img src={mailIcon} /> El. paštas: info@nordnet.lt
+            <img src={mailIcon} alt="" /> El. paštas: info@digitaledge.lt
         </div>
       <label>Vardas</label><br />
       <input type="text" name="user_name" id="user_name"/><br />

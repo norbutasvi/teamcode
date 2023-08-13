@@ -35,7 +35,7 @@ body {
 }
 
 .mobile-logo img {
-  width: 60px;
+  width: 100px;
 }
 
 .mobile-menu-icon {
@@ -76,7 +76,7 @@ body {
 }
 
 .header .contacts {
-  width: 20%;
+  width: 30%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -106,7 +106,7 @@ body {
 }
 
 .header .logo img {
-  width: 100px !important;
+  width: 200px !important;
 }
 
 
@@ -460,7 +460,7 @@ h2 {
 }
 
 .contacts-wrapper .logo img {
-  width: 100px;
+  width: 200px;
 }
 
 .contacts-wrapper .flex-container .col p {
@@ -554,10 +554,18 @@ h2 {
 .reviews-container .review .row .avatar {
   width: 44.4px;
   margin-right: 5px;
+  position: relative;
 }
 
 .reviews-container .review .row .avatar img {
   width: 100%;
+}
+
+.reviews-container .review .row .avatar .fb-logo {
+  width: 40% !important;
+  position: absolute;
+  top: 0;
+  left: 0;
 }
 
 .reviews-container .review .row .fields {
@@ -624,6 +632,10 @@ h2 {
 
 @media only screen and (max-width: 1170px) {
 
+  .header .logo img {
+    width: 150px !important;
+  }
+
   .reviews-wrapper {
     width: 90%;
   }
@@ -651,7 +663,7 @@ h2 {
   }
 
   .col {
-    width: 60% !important;
+    /* width: 60% !important; */
   }
 
   .col-featured {
@@ -735,7 +747,7 @@ h2 {
   }
 
   .contacts-wrapper .logo img {
-    width: 200px;
+    width: 150px;
   }
 }
 
