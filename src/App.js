@@ -80,7 +80,7 @@ function App() {
       facebookProfile: false,
       name: 'Trendy Bar',
       date: '2023-01',
-      text: 'Profesionali komunikacija, greitas ir optimalus reagavimas tiek į dideles, tiek į mažas internetinės svetainės vidaus ir išorės problemas, niekada nekilo jokių sunkumų dirbant su Sbyte ir ateityje palaikysime ryšį su šiais savo srities specialistais.'
+      text: 'Profesionali komunikacija, greitas ir optimalus reagavimas tiek į dideles, tiek į mažas internetinės svetainės vidaus ir išorės problemas, niekada nekilo jokių sunkumų dirbant su digital edge ir ateityje palaikysime ryšį su šiais savo srities specialistais.'
     },    {
       avatar: 'https://paslaugos-img.dgn.lt/profile_4_11141649/profilis.jpg',
       facebookProfile: true,
@@ -297,19 +297,35 @@ function App() {
             <h3>INTERNETINIŲ SVETAINIŲ KŪRIMAS <br/>NUO <span>100 EUR</span></h3>
             <div className='line'>
               <div className='square'></div>
-              Jokių avansinių ar papildomų apmokestinimų.
+              Lengvai valdoma turinio valdymo sistema
             </div>
             <div className='line'>
               <div className='square'></div>
-              SEO optimizacija - iškelsime Jus “Google” paieškose
+              Svetainės pritaikymas mobiliesiems įrenginiams
             </div>
             <div className='line'>
               <div className='square'></div>
-              Pilnas apmokymas kaip administruoti svetainę
+              Unikalūs ir profesionalūs dizainai
             </div>
             <div className='line'>
               <div className='square'></div>
-              Pilna pagalba ir konsultacijos po svetainės sukūrimo
+              Optimizacija paieškos sistemoms Google ir pan.
+            </div>
+            <div className='line'>
+              <div className='square'></div>
+              Socialinių tinklų integracija, Google maps ir pan.
+            </div>
+            <div className='line'>
+              <div className='square'></div>
+              Nuotraukų galerijos, kontaktų formos, rezervacijų sistemos
+            </div>
+            <div className='line'>
+              <div className='square'></div>
+              Daugiakalbystė
+            </div>
+            <div className='line'>
+              <div className='square'></div>
+              Nuolatinė pagalba po atliktų darbų
             </div>
             <div className='line'>
               <div className='square'></div>
@@ -359,23 +375,23 @@ function App() {
             <h3>ELEKTRONINIŲ PARDUOTUVIŲ KŪRIMAS <br/>NUO <span>300 EUR</span></h3>
             <div className='line'>
               <div className='square'></div>
-              SEO optimizacija - iškelsime Jus “Google” paieškose
+              Lengvai valdoma turinio valdymo sistema
             </div>
             <div className='line'>
               <div className='square'></div>
-              Įvairūs atsiskaitymo būdai
+              Lietuviškų ir užsienio bankų mokėjimų integracijos
             </div>
             <div className='line'>
               <div className='square'></div>
-              Įvairios pristatymo galimybės
+              Kurjerių integracija
             </div>
             <div className='line'>
               <div className='square'></div>
-              Patogi turinio valdymo sistema
+              Pardavimų, vartotojų elgsenos statistika ir kt.
             </div>
             <div className='line'>
               <div className='square'></div>
-              Pilnas apmokymas kaip administruoti el. parduotuvę
+              Unikalūs ir profesionalūs dizainai
             </div>
             <div className='line'>
               <div className='square'></div>
@@ -383,11 +399,7 @@ function App() {
             </div>
             <div className='line'>
               <div className='square'></div>
-              Sąskaitos faktūros
-            </div>
-            <div className='line'>
-              <div className='square'></div>
-              Pilna pagalba ir konsultacijos po svetainės sukūrimo
+              Nuolatinė pagalba po atliktų darbų
             </div>
             <div className="buttons-row">
               <div className="button" onClick={scrollToContacts}>
@@ -510,7 +522,7 @@ function App() {
             Kuo mes geresni už kitus?
           </div>
           <div className='content'>
-          Nuo didelių dizaino agentūrų skiriamės tuo, kad esame nedidelė komanda, kuriai nereikia išlaikyti didelio ofiso su daug darbuotojų, būtent dėl to mes galime pasiūlyti konkurencingas paslaugų kainas. Taip pat mes patariame atsižvelgdami į kiekvieną projektą - nuo profesionalaus individualaus dizaino, o būna išklausę klientą užvedame jį ant kelio - kartais nereikia geriausio pasaulio sprendimo. Jei tai nedidelio verslo pradžia – kartais galima sutaupyti naudojant šablonus.
+          Nuo didelių dizaino agentūrų skiriamės tuo, kad esame nedidelė komanda, kuriai nereikia išlaikyti didelio ofiso su daug darbuotojų, būtent dėl to mes galime pasiūlyti konkurencingas paslaugų kainas. Taip pat mes patariame atsižvelgdami į kiekvieną projektą, o būna išklausę klientą užvedame jį ant kelio - kartais nereikia geriausio pasaulio sprendimo. Jei tai nedidelio verslo pradžia – kartais galima sutaupyti naudojant šablonus.
           </div>
           <div className='stats-row'>
             <div className='stats-row-item'>
