@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/teamcode/static/css/main.2d5716ed.css",
-    "main.js": "/teamcode/static/js/main.98864094.js",
+    "main.css": "/teamcode/static/css/main.ee8eba65.css",
+    "main.js": "/teamcode/static/js/main.5a2293d2.js",
     "static/js/787.adb2f965.chunk.js": "/teamcode/static/js/787.adb2f965.chunk.js",
     "static/media/graphics.jpg": "/teamcode/static/media/graphics.fe03d300e1bb24d41b28.jpg",
     "static/media/kidzone.png": "/teamcode/static/media/kidzone.b31e62acf0e1c730ffe5.png",
@@ -20,12 +20,12 @@
     "static/media/andrius.png": "/teamcode/static/media/andrius.86021614f59f0dfd6547.png",
     "static/media/vilius.png": "/teamcode/static/media/vilius.99156d768ba184887b45.png",
     "index.html": "/teamcode/index.html",
-    "main.2d5716ed.css.map": "/teamcode/static/css/main.2d5716ed.css.map",
-    "main.98864094.js.map": "/teamcode/static/js/main.98864094.js.map",
+    "main.ee8eba65.css.map": "/teamcode/static/css/main.ee8eba65.css.map",
+    "main.5a2293d2.js.map": "/teamcode/static/js/main.5a2293d2.js.map",
     "787.adb2f965.chunk.js.map": "/teamcode/static/js/787.adb2f965.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d5716ed.css",
-    "static/js/main.98864094.js"
+    "static/css/main.ee8eba65.css",
+    "static/js/main.5a2293d2.js"
   ]
 }
