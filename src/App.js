@@ -400,6 +400,9 @@ function App() {
             <div className='line'>
               <div className='square'></div>
               Nuolatinė pagalba po atliktų darbų
+            </div>            <div className='line'>
+              <div className='square'></div>
+              Nestandartiniai sprendimai, papildomos funkcijos ir t.t.
             </div>
             <div className="buttons-row">
               <div className="button" onClick={scrollToContacts}>
@@ -671,6 +674,7 @@ function App() {
           </div>
           <div className='col'>
             <h3>DIGITALEDGE.LT</h3>
+            <p>Klaipėda, Taikos pr. 21</p>
             <p>Verslo liudijimo Nr. 1077274</p>
             <p>Atsiskaitomoji sąskaita: LT1234567891011121314</p>
           </div>
