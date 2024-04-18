@@ -294,7 +294,7 @@ function App() {
         <div id='start' class="hero margin-top-90" style={{ backgroundImage: `url(${Slideshow_one})` }}>
         <div className='hero-wrapper'>
           <div className='hero-column'>
-            <h3>INTERNETINIŲ SVETAINIŲ KŪRIMAS <br/>NUO <span>100 EUR</span></h3>
+            <h3>INTERNETINIŲ SVETAINIŲ KŪRIMAS <br/>NUO <span>99 EUR</span></h3>
             <div className='line'>
               <div className='square'></div>
               Lengvai valdoma turinio valdymo sistema
@@ -372,7 +372,7 @@ function App() {
         <div class="hero">
         <div className='hero-wrapper reverse'>
           <div className='hero-column'>
-            <h3>ELEKTRONINIŲ PARDUOTUVIŲ KŪRIMAS <br/>NUO <span>300 EUR</span></h3>
+            <h3>ELEKTRONINIŲ PARDUOTUVIŲ KŪRIMAS <br/>NUO <span>249 EUR</span></h3>
             <div className='line'>
               <div className='square'></div>
               Lengvai valdoma turinio valdymo sistema
@@ -676,7 +676,7 @@ function App() {
             <h3>DIGITALEDGE.LT</h3>
             <p>Klaipėda, Taikos pr. 21</p>
             <p>Verslo liudijimo Nr. 1077274</p>
-            <p>Atsiskaitomoji sąskaita: LT1234567891011121314</p>
+            <p>Atsiskaitomoji sąskaita: LT747300010140189817</p>
           </div>
         </div>
       </div>
