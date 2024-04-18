@@ -676,7 +676,7 @@ function App() {
             <h3>DIGITALEDGE.LT</h3>
             <p>Klaipėda, Taikos pr. 21</p>
             <p>Verslo liudijimo Nr. 1077274</p>
-            <p>Atsiskaitomoji sąskaita: LT747300010140189817</p>
+            <p>Atsiskaitomoji sąskaita: LT747300010140189810</p>
           </div>
         </div>
       </div>
